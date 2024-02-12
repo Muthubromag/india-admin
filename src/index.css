@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-menu-light .ant-menu-item-selected{
+    color: var(--primary-color) !important;
+    font-weight: 800;    
+}
+
+.ant-tabs-tab{
+    color: white !important;
+}
+
+.ant-menu-item-selected{
+    background-color: white !important;
+   
+}
+
+.ant-menu-light .ant-menu-submenu-selected >.ant-menu-submenu-title{
+    color: blue !important;
+}
+
+.ant-menu{
+    background-color:var(--secondary-color) !important;
+    color:white !important;
+   
+}
+
+
+:root {
+    --primary-color: #CD5C08 !important;
+    --secondary-color: black !important;
+    --third-color:rgba(0, 0, 0, 0.940) !important
+  }
+
+

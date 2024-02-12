@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body,
+.ant-form,
+.ant-form-item,
+:where(.css-dev-only-do-not-override-2i2tap)[class^="ant-col"],
+:where(.css-dev-only-do-not-override-2i2tap)[class*=" ant-col"],
+.ant-menu,
+.ant-table {
+  font-family: "Comfortaa", sans-serif !important;
+  user-select: none !important;
+}
+
+body {
+  background-color: var(--third-color) !important;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th {
+  background: var(--third-color) !important;
+  color: #fff !important;
+  text-shadow: 1px 2px 2px rgba(234, 229, 229, 0.902) !important;
+  border: 1px solid #f0f0f061 !important;
+}
+
+.ant-menu-title-content:hover {
+  color: var(--primary-color) !important;
+  font-weight: 800 !important;
+}
+
+.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before,
+.ant-form-item .ant-form-item-explain-error {
+  color: var(--primary-color) !important;
+}
+
+:where(.css-dev-only-do-not-override-2i2tap).ant-input-status-error:not(
+    .ant-input-disabled
+  ):not(.ant-input-borderless).ant-input {
+  border-color: var(--primary-color) !important;
+}
+
+.ant-card .ant-card-meta-title,
+.ant-card .ant-card-meta-description {
+  color: white !important;
+}
+
+.ant-card .ant-card-actions {
+  background: var(--secondary-color) !important;
+}
+
+.ant-card .ant-card-body {
+  padding: 12px !important;
+}
+
+.ant-table-wrapper .ant-table-tbody > tr > td {
+  border: 1px solid #989393 !important;
+}
+
+.ant-table-tbody {
+  background-color: var(--third-color) !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.356) !important;
+  color: white !important;
+  transition: none !important;
+}
+
+.ant-tabs >.ant-tabs-nav .ant-tabs-nav-wrap{
+  background-color: var(--secondary-color) !important;
+  border-radius: 5px;
+  width: 45vw !important;
+  padding-left: 10px !important;
+}
+
+.ant-menu-light .ant-menu-submenu-selected >.ant-menu-submenu-title{
+  color:var(--primary-color) !important;
+  font-weight: 700 !important;
+}
+
+.ant-tabs-top >.ant-tabs-nav::before{
+  display: none !important;
+}
+
+.ant-modal-mask,
+.ant-drawer-mask {
+  backdrop-filter: blur(2px) !important;
+}
+
+.ant-table-tbody > tr:hover {
+  background-color: rgb(255, 255, 255) !important;
+  cursor: pointer !important;
+}
+
+:where(.css-dev-only-do-not-override-2i2tap).ant-table-wrapper
+  .ant-table-thead
+  > tr
+  > th:not(:last-child):not(.ant-table-selection-column):not(
+    .ant-table-row-expand-icon-cell
+  ):not([colspan])::before {
+  width: 0px !important;
+}
+
+.ant-pagination .ant-pagination-item a {
+  color: white !important;
+}
+
+.ant-pagination-next .ant-pagination-item-link,
+.ant-pagination-item-container .ant-pagination-item-ellipsis {
+  color: white !important;
+}
+
+
+.ant-select-selector,
+.ant-collapse .ant-collapse-content {
+  background-color: var(--third-color) !important;
+  color: white !important;
+}
+
+.ant-pagination .ant-pagination-item-active{
+  background-color: black !important;
+}
+
+.ant-table-cell-row-hover {
+  background-color: var(--secondary-color) !important;
+}
+
+.ant-select-selector {
+  background-color: #fff !important;
+  color: black !important;
+}
